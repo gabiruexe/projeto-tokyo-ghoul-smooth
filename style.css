@@ -9,6 +9,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 nav {
     width: 100%;
     position: fixed;
